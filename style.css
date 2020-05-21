@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body{
+    background: darkolivegreen;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, 2fr);
+    column-gap: 15px;
+    row-gap: 15px;
+   
+  }
+  .grid__element{
+    background: tomato;
+    padding: 20px;
+    color: white;
+  }
